@@ -1,0 +1,18 @@
+PROGRAM Cylinder
+	/*Testing mixed type operands for equality operator*/
+	INT r, a, h, b; 
+	r = 8;
+	h = 10;
+	a = 0;
+	FLOAT surface, volume, val;
+	val = 10.0;
+	volume = 3.14 * r * r * h;
+	surface = 2 * 3.14 * r * h + 2 * 3.14 * r * r;
+	IF ( h == val ) THEN
+	  	PRINT  ("The output results are " , volume, " ", surface, " " , h, " ", r);
+	ELSE
+		PRINT  ("No computations should be done!" );
+	END IF; 
+	/*Display the results*/
+	
+END  PROGRAM
